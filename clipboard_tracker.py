@@ -5,11 +5,11 @@ import pyperclip
 
 class UrlTracker:
   def __init__(self):
-    self.tracked_urls = set() # Store tracked URLs to avoid duplicates
     self.filename = "tracked_urls.txt"
     self.ensure_file_exists()
     self.clipboard_timer = asyncio.ensure_future(self.check_clipboard())
 
+#   self.tracked_urls = set() # Store tracked URLs to avoid duplicates
 #  async def check_clipboard(self):
 #    while True:
 #      clipboard_data = pyperclip.paste()
