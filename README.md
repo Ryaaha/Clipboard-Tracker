@@ -2,4 +2,4 @@
 
 Plans -
 1. A working GUI
-2. Searching through logged urls by timestamps
+2. Searching through logged urls by timestamps - Done!
